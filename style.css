@@ -1,0 +1,41 @@
+.hidden{
+
+    display: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url('../img/background_img.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-attachment: fixed;
+    transition-property: background-image;
+    transition-duration: 1s;
+
+
+  }
+
+
+#clock{font-size: 50pt;
+}
+
+#greeting{font-size: 40pt;
+margin-left: 5%;}
+
+#todo-list{font-size: 30pt;
+color: rgb(248, 174, 244);
+margin-left: 5%;}
+
+#quote{font-size: 25pt;}
+
+#weather{font-size: 30pt;}
+
+#input{
+    width: 300px;
+height: 20px;
+border-radius: 20px; 
+border-color: rgba(252, 252, 252, 0);
+outline: none;
+margin-left: 5%;
+}
